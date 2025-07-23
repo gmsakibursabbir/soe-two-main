@@ -202,3 +202,20 @@ select:invalid {
   cursor: not-allowed;
   pointer-events: none;
 }
+/* slider */
+
+/* For .group.slider */
+.group.slider.touched .group-hover\/sliders\:inline-block {
+  display: inline-block !important;
+}
+.group.slider.touched .group-hover\/sliders\:hidden {
+  display: none !important;
+}
+
+/* For .group.sliders */
+.group.sliders.touched .group-hover\/sliders\:inline-block {
+  display: inline-block !important;
+}
+.group.sliders.touched .group-hover\/sliders\:hidden {
+  display: none !important;
+}

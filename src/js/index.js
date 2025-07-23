@@ -124,10 +124,10 @@ const devsswiper = new Swiper(".devSwiper", {
       slidesPerView: 1.1,
     },
     1024: {
-      slidesPerView: 1.1, 
+      slidesPerView: 1.1,
     },
     1280: {
-      slidesPerView: 2.2, 
+      slidesPerView: 2.2,
     },
   },
 });
@@ -179,3 +179,17 @@ setResponsiveGradient();
 
 // Run on window resize
 window.addEventListener("resize", setResponsiveGradient);
+
+//sldier hover
+document.querySelectorAll(".group.slider, .group.sliders").forEach((group) => {
+  group.addEventListener("click", () => {
+    // Optional: Remove 'touched' from all other sliders
+    document
+      .querySelectorAll(".group.slider.touched, .group.sliders.touched")
+      .forEach((el) => {
+        if (el !== group) el.classList.remove("touched");
+      });
+
+    group.classList.toggle("touched");
+  });
+});
