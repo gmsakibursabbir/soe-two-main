@@ -593,269 +593,422 @@
     </section>
     <!-- solutions end -->
     <!-- frecuentes preguntas start -->
-    <section class="frecuentes py-12 md:py-15 lg:py-24">
-      <!-- Optional container just for heading/alignment (not wrapping the slider) -->
-      <div class="container flex flex-col md:flex-row items-start justify-between mb-8 gap-6">
-        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-start gap-6 w-full">
-          <h2
-            class="text-basic-black text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] lg:leading-[60px]">
-            Preguntas frecuentes
-          </h2>
+   <section class="frecuentes py-12 md:py-15 lg:py-24">
+        <!-- Optional container just for heading/alignment (not wrapping the slider) -->
+        <div
+          class="container flex flex-col md:flex-row items-start justify-between mb-8 gap-6"
+        >
+          <div
+            class="flex flex-col lg:flex-row justify-between items-start lg:items-start gap-6 w-full"
+          >
+            <h2
+              class="text-basic-black text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] lg:leading-[60px]"
+            >
+              Preguntas frecuentes
+            </h2>
 
-          <!-- doc -->
-          <div class="flex flex-col items-start gap-6">
-            <p class="text-gray-dark text-lg font-normal leading-7 w-full lg:max-w-[492px]">
-              Encuentra respuestas claras sobre nuestros servicios, procesos y
-              tecnologías. Si no ves lo que buscas, contáctanos y te
-              ayudaremos con gusto.
-            </p>
-            <!-- 👇 Custom Pagination Dots -->
-            <div class="flex md:hidden lg:flex justify-start gap-4 items-center mb-6">
-              <button
-                class="frecuentes-prev cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-accent-secondary transition">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                  class="w-6 h-6 stroke-accent-secondary group-hover:stroke-basic-white transition">
-                  <path d="M20 12H4M4 12L10 18M4 12L10 6" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-              </button>
+            <!-- doc -->
+            <div class="flex flex-col items-start gap-6">
+              <p
+                class="text-gray-dark text-lg font-normal leading-7 w-full lg:max-w-[492px]"
+              >
+                Encuentra respuestas claras sobre nuestros servicios, procesos y
+                tecnologías. Si no ves lo que buscas, contáctanos y te
+                ayudaremos con gusto.
+              </p>
+              <!-- 👇 Custom Pagination Dots -->
+              <div
+                class="flex md:hidden lg:flex justify-start gap-4 items-center mb-6"
+              >
+                <a
+                  class="frecuentes-prev cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-[#13547A] active:bg-[#13547A] focus:bg-[#13547A] transition"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="w-6 h-6 stroke-[#284A70] group-hover:stroke-basic-white group-active:stroke-basic-white group-focus:stroke-basic-white transition"
+                  >
+                    <path
+                      d="M20 12H4M4 12L10 18M4 12L10 6"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
 
-              <button
-                class="frecuentes-next cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-accent-secondary transition">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                  class="w-6 h-6 stroke-accent-secondary group-hover:stroke-basic-white transition">
-                  <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- 👇 Custom Pagination Dots -->
-        <div class="hidden md:flex lg:hidden justify-start gap-4 items-center">
-          <button
-            class="frecuentes-prev cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-accent-secondary transition">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-              class="w-6 h-6 stroke-accent-secondary group-hover:stroke-basic-white transition">
-              <path d="M20 12H4M4 12L10 18M4 12L10 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-
-          <button
-            class="frecuentes-next cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-accent-secondary transition">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-              class="w-6 h-6 stroke-accent-secondary group-hover:stroke-basic-white transition">
-              <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div class="relative w-full">
-        <!-- Slider wrapper with only left container spacing -->
-        <div class="overflow-x-auto pl-4 sm:pl-8 lg:pl-16 2xl:pl-[calc((100vw-1216px)/2)]">
-          <!-- Swiper Container -->
-          <div class="swiper frecuentesSwiper pl-4 pr-12 md:pl-8 md:pr-16 lg:pl-16 lg:pr-24 h-[584px] md:h-[686px]">
-
-            <div class="swiper-wrapper">
-              <!-- Slide 1 -->
-              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
-                <div
-                  class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-secondary text-white overflow-hidden group/slider">
-                  <!-- main -->
-                  <div class="inline-block group-hover/slider:hidden transition-opacity duration-400">
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
-                      ¿Cómo saber qué solución es la adecuada para mi
-                      organización?
-                    </h4>
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-up-right.svg" alt="arrow-up-right" class="w-6 h-8 md:w-12 md:h-12" />
-                    </div>
-                  </div>
-                  <!-- hover -->
-                  <div class="hidden group-hover/slider:inline-block transition-opacity duration-400">
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-down-left.svg" alt="arrow-up-left" w-6 h-8 md:w-12 md:h-12 />
-                    </div>
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
-                      ¿Cómo saber qué solución es la adecuada para mi
-                      organización?
-                    </h4>
-                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
-                      Antes de comenzar cualquier proyecto, analizamos tus
-                      necesidades específicas mediante una consultoría inicial
-                      gratuita. Evaluamos el sector en el que operas, tus
-                      objetivos, y el estado actual de tu infraestructura o
-                      procesos. Con base en ese diagnóstico, te proponemos una
-                      solución personalizada que se alinee con tus metas, ya
-                      sea en tecnología médica, empresarial o desarrollo de
-                      software. Nuestro enfoque es ofrecer solo lo que
-                      realmente necesitas, sin soluciones genéricas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 2 -->
-              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
-                <div
-                  class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-secondary text-white overflow-hidden group/slider">
-                  <!-- main -->
-                  <div class="inline-block group-hover/slider:hidden transition-opacity duration-400">
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
-                      ¿Cuál es el proceso para iniciar un proyecto con
-                      ustedes?
-                    </h4>
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-up-right.svg" alt="arrow-up-right" class="w-6 h-8 md:w-12 md:h-12" />
-                    </div>
-                  </div>
-                  <!-- hover -->
-                  <div class="hidden group-hover/slider:inline-block transition-opacity duration-400">
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-down-left.svg" alt="arrow-up-left" w-6 h-8 md:w-12 md:h-12 />
-                    </div>
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
-                      ¿Cuál es el proceso para iniciar un proyecto con
-                      ustedes?
-                    </h4>
-                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
-                      Antes de comenzar cualquier proyecto, analizamos tus
-                      necesidades específicas mediante una consultoría inicial
-                      gratuita. Evaluamos el sector en el que operas, tus
-                      objetivos, y el estado actual de tu infraestructura o
-                      procesos. Con base en ese diagnóstico, te proponemos una
-                      solución personalizada que se alinee con tus metas, ya
-                      sea en tecnología médica, empresarial o desarrollo de
-                      software. Nuestro enfoque es ofrecer solo lo que
-                      realmente necesitas, sin soluciones genéricas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 3 -->
-              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
-                <div
-                  class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-secondary text-white overflow-hidden group/slider">
-                  <!-- main -->
-                  <div class="inline-block group-hover/slider:hidden transition-opacity duration-400">
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
-                      ¿Qué tipo de soporte ofrecen durante y después del
-                      proyecto?
-                    </h4>
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-up-right.svg" alt="arrow-up-right" class="w-6 h-8 md:w-12 md:h-12" />
-                    </div>
-                  </div>
-                  <!-- hover -->
-                  <div class="hidden group-hover/slider:inline-block transition-opacity duration-400">
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-down-left.svg" alt="arrow-up-left" w-6 h-8 md:w-12 md:h-12 />
-                    </div>
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
-                      ¿Qué tipo de soporte ofrecen durante y después del
-                      proyecto?
-                    </h4>
-                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
-                      Antes de comenzar cualquier proyecto, analizamos tus
-                      necesidades específicas mediante una consultoría inicial
-                      gratuita. Evaluamos el sector en el que operas, tus
-                      objetivos, y el estado actual de tu infraestructura o
-                      procesos. Con base en ese diagnóstico, te proponemos una
-                      solución personalizada que se alinee con tus metas, ya
-                      sea en tecnología médica, empresarial o desarrollo de
-                      software. Nuestro enfoque es ofrecer solo lo que
-                      realmente necesitas, sin soluciones genéricas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 4 -->
-              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
-                <div
-                  class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-secondary text-white overflow-hidden group/slider">
-                  <!-- main -->
-                  <div class="inline-block group-hover/slider:hidden transition-opacity duration-400">
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
-                      ¿Hay costos adicionales por soporte o mantenimiento?
-                    </h4>
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-up-right.svg" alt="arrow-up-right" class="w-6 h-8 md:w-12 md:h-12" />
-                    </div>
-                  </div>
-                  <!-- hover -->
-                  <div class="hidden group-hover/slider:inline-block transition-opacity duration-400">
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-down-left.svg" alt="arrow-up-left" w-6 h-8 md:w-12 md:h-12 />
-                    </div>
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
-                      ¿Hay costos adicionales por soporte o mantenimiento?
-                    </h4>
-                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
-                      Antes de comenzar cualquier proyecto, analizamos tus
-                      necesidades específicas mediante una consultoría inicial
-                      gratuita. Evaluamos el sector en el que operas, tus
-                      objetivos, y el estado actual de tu infraestructura o
-                      procesos. Con base en ese diagnóstico, te proponemos una
-                      solución personalizada que se alinee con tus metas, ya
-                      sea en tecnología médica, empresarial o desarrollo de
-                      software. Nuestro enfoque es ofrecer solo lo que
-                      realmente necesitas, sin soluciones genéricas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 5 -->
-              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
-                <div
-                  class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-secondary text-white overflow-hidden group/slider">
-                  <!-- main -->
-                  <div class="inline-block group-hover/slider:hidden transition-opacity duration-400">
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
-                      ¿Cómo saber qué solución es la adecuada para mi
-                      organización?
-                    </h4>
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-up-right.svg" alt="arrow-up-right" class="w-6 h-8 md:w-12 md:h-12" />
-                    </div>
-                  </div>
-                  <!-- hover -->
-                  <div class="hidden group-hover/slider:inline-block transition-opacity duration-400">
-                    <div class="absolute top-6 right-6">
-                      <img src="./images/arrow-down-left.svg" alt="arrow-up-left" w-6 h-8 md:w-12 md:h-12 />
-                    </div>
-                    <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
-                      ¿Cómo saber qué solución es la adecuada para mi
-                      organización?
-                    </h4>
-                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
-                      Antes de comenzar cualquier proyecto, analizamos tus
-                      necesidades específicas mediante una consultoría inicial
-                      gratuita. Evaluamos el sector en el que operas, tus
-                      objetivos, y el estado actual de tu infraestructura o
-                      procesos. Con base en ese diagnóstico, te proponemos una
-                      solución personalizada que se alinee con tus metas, ya
-                      sea en tecnología médica, empresarial o desarrollo de
-                      software. Nuestro enfoque es ofrecer solo lo que
-                      realmente necesitas, sin soluciones genéricas.
-                    </p>
-                  </div>
-                </div>
+                <a
+                  class="frecuentes-next cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-accent-primary active:bg-[#13547A] focus:bg-[#13547A] transition"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="w-6 h-6 stroke-[#284A70] group-hover:stroke-basic-white group-active:stroke-basic-white group-focus:stroke-basic-white transition"
+                  >
+                    <path
+                      d="M4 12H20M20 12L14 6M20 12L14 18"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
+          <!-- 👇 Custom Pagination Dots -->
+          <div
+            class="hidden md:flex lg:hidden justify-start gap-4 items-center"
+          >
+            <a
+              class="frecuentes-prev cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-[#13547A] active:bg-[#13547A] focus:bg-[#13547A] transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="w-6 h-6 stroke-[#284A70] group-hover:stroke-basic-white group-active:stroke-basic-white group-focus:stroke-basic-white transition"
+              >
+                <path
+                  d="M20 12H4M4 12L10 18M4 12L10 6"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="frecuentes-next cursor-pointer group w-12 h-12 rounded-full border border-gray-medium flex items-center justify-center hover:bg-accent-primary active:bg-[#13547A] focus:bg-[#13547A] transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                class="w-6 h-6 stroke-[#284A70] group-hover:stroke-basic-white group-active:stroke-basic-white group-focus:stroke-basic-white transition"
+              >
+                <path
+                  d="M4 12H20M20 12L14 6M20 12L14 18"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="relative w-full">
+          <!-- Slider wrapper with only left container spacing -->
+          <div
+            class="overflow-x-auto pl-4 sm:pl-8 lg:pl-16 2xl:pl-[calc((100vw-1216px)/2)]"
+          >
+            <!-- Swiper Container -->
+            <div
+              class="swiper frecuentesSwiper pl-4 pr-12 md:pl-8 md:pr-16 lg:pl-16 lg:pr-24 h-[584px] md:h-[686px]"
+            >
+              <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div
+                  class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full"
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary active:bg-accent-primary focus:bg-accent-primary text-white overflow-hidden group/sliders"
+                  >
+                    <!-- main -->
+                    <div
+                      class="inline-block group-hover/sliders:hidden group-active/sliders:hidden group-focus/sliders:hidden transition-opacity duration-400"
+                    >
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-up-right.svg"
+                          alt="arrow-up-right"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                    </div>
+                    <!-- hover -->
+                    <div
+                      class="hidden group-hover/sliders:inline-block group-active/sliders:inline-block group-focus/sliders:inline-block transition-opacity duration-400"
+                    >
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-down-left.svg"
+                          alt="arrow-up-left"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <p
+                        class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6"
+                      >
+                        Antes de comenzar cualquier proyecto, analizamos tus
+                        necesidades específicas mediante una consultoría inicial
+                        gratuita. Evaluamos el sector en el que operas, tus
+                        objetivos, y el estado actual de tu infraestructura o
+                        procesos. Con base en ese diagnóstico, te proponemos una
+                        solución personalizada que se alinee con tus metas, ya
+                        sea en tecnología médica, empresarial o desarrollo de
+                        software. Nuestro enfoque es ofrecer solo lo que
+                        realmente necesitas, sin soluciones genéricas.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Slide 2 -->
+                <div
+                  class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full"
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary active:bg-accent-primary focus:bg-accent-primary text-white overflow-hidden group/sliders"
+                  >
+                    <!-- main -->
+                    <div
+                      class="inline-block group-hover/sliders:hidden group-active/sliders:hidden group-focus/sliders:hidden transition-opacity duration-400"
+                    >
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-up-right.svg"
+                          alt="arrow-up-right"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                    </div>
+                    <!-- hover -->
+                    <div
+                      class="hidden group-hover/sliders:inline-block group-active/sliders:inline-block group-focus/sliders:inline-block transition-opacity duration-400"
+                    >
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-down-left.svg"
+                          alt="arrow-up-left"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <p
+                        class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6"
+                      >
+                        Antes de comenzar cualquier proyecto, analizamos tus
+                        necesidades específicas mediante una consultoría inicial
+                        gratuita. Evaluamos el sector en el que operas, tus
+                        objetivos, y el estado actual de tu infraestructura o
+                        procesos. Con base en ese diagnóstico, te proponemos una
+                        solución personalizada que se alinee con tus metas, ya
+                        sea en tecnología médica, empresarial o desarrollo de
+                        software. Nuestro enfoque es ofrecer solo lo que
+                        realmente necesitas, sin soluciones genéricas.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Slide 3 -->
+                <div
+                  class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full"
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary active:bg-accent-primary focus:bg-accent-primary text-white overflow-hidden group/sliders"
+                  >
+                    <!-- main -->
+                    <div
+                      class="inline-block group-hover/sliders:hidden group-active/sliders:hidden group-focus/sliders:hidden transition-opacity duration-400"
+                    >
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-up-right.svg"
+                          alt="arrow-up-right"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                    </div>
+                    <!-- hover -->
+                    <div
+                      class="hidden group-hover/sliders:inline-block group-active/sliders:inline-block group-focus/sliders:inline-block transition-opacity duration-400"
+                    >
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-down-left.svg"
+                          alt="arrow-up-left"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <p
+                        class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6"
+                      >
+                        Antes de comenzar cualquier proyecto, analizamos tus
+                        necesidades específicas mediante una consultoría inicial
+                        gratuita. Evaluamos el sector en el que operas, tus
+                        objetivos, y el estado actual de tu infraestructura o
+                        procesos. Con base en ese diagnóstico, te proponemos una
+                        solución personalizada que se alinee con tus metas, ya
+                        sea en tecnología médica, empresarial o desarrollo de
+                        software. Nuestro enfoque es ofrecer solo lo que
+                        realmente necesitas, sin soluciones genéricas.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Slide 4 -->
+                <div
+                  class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full"
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary active:bg-accent-primary focus:bg-accent-primary text-white overflow-hidden group/sliders"
+                  >
+                    <!-- main -->
+                    <div
+                      class="inline-block group-hover/sliders:hidden group-active/sliders:hidden group-focus/sliders:hidden transition-opacity duration-400"
+                    >
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-up-right.svg"
+                          alt="arrow-up-right"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                    </div>
+                    <!-- hover -->
+                    <div
+                      class="hidden group-hover/sliders:inline-block group-active/sliders:inline-block group-focus/sliders:inline-block transition-opacity duration-400"
+                    >
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-down-left.svg"
+                          alt="arrow-up-left"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <p
+                        class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6"
+                      >
+                        Antes de comenzar cualquier proyecto, analizamos tus
+                        necesidades específicas mediante una consultoría inicial
+                        gratuita. Evaluamos el sector en el que operas, tus
+                        objetivos, y el estado actual de tu infraestructura o
+                        procesos. Con base en ese diagnóstico, te proponemos una
+                        solución personalizada que se alinee con tus metas, ya
+                        sea en tecnología médica, empresarial o desarrollo de
+                        software. Nuestro enfoque es ofrecer solo lo que
+                        realmente necesitas, sin soluciones genéricas.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Slide 5 -->
+                <div
+                  class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full"
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary active:bg-accent-primary focus:bg-accent-primary text-white overflow-hidden group/sliders"
+                  >
+                    <!-- main -->
+                    <div
+                      class="inline-block group-hover/sliders:hidden group-active/sliders:hidden group-focus/sliders:hidden transition-opacity duration-400"
+                    >
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-up-right.svg"
+                          alt="arrow-up-right"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                    </div>
+                    <!-- hover -->
+                    <div
+                      class="hidden group-hover/sliders:inline-block group-active/sliders:inline-block group-focus/sliders:inline-block transition-opacity duration-400"
+                    >
+                      <div class="absolute top-6 right-6">
+                        <img
+                          src="./images/arrow-down-left.svg"
+                          alt="arrow-up-left"
+                          class="w-6 h-8 md:w-12 md:h-12"
+                        />
+                      </div>
+                      <h4
+                        class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay"
+                      >
+                        ¿Cómo saber qué solución es la adecuada para mi
+                        organización?
+                      </h4>
+                      <p
+                        class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6"
+                      >
+                        Antes de comenzar cualquier proyecto, analizamos tus
+                        necesidades específicas mediante una consultoría inicial
+                        gratuita. Evaluamos el sector en el que operas, tus
+                        objetivos, y el estado actual de tu infraestructura o
+                        procesos. Con base en ese diagnóstico, te proponemos una
+                        solución personalizada que se alinee con tus metas, ya
+                        sea en tecnología médica, empresarial o desarrollo de
+                        software. Nuestro enfoque es ofrecer solo lo que
+                        realmente necesitas, sin soluciones genéricas.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <!-- frecuentes preguntas end -->
   </main>
   <footer class="bg-zinc-200 bg-[url('../images/shape-footer.svg')] bg-no-repeat bg-right-top">
